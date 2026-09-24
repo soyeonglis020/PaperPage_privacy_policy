@@ -105,9 +105,10 @@
     <li><strong>Google Fonts:</strong> When you choose certain reading fonts, the app
     downloads the font files from Google's servers. As with any web request, Google can see
     your IP address.</li>
-    <li><strong>Google ML Kit:</strong> Text recognition runs on your device. Like other
-    Google ML Kit apps, it may send Google limited diagnostic and usage information (such as
-    device model and API performance), but not the text or images being processed. See
+    <li><strong>Google ML Kit:</strong> Text recognition runs on your device. ML Kit
+    sends Google diagnostic and usage information (device model and OS version, app
+    version, a per-installation identifier, performance metrics, and error codes) over HTTPS,
+    but not the text or images being processed. See
     <a href="https://developers.google.com/ml-kit/terms">ML Kit terms</a>.</li>
     <li><strong>Text-to-speech:</strong> Read-aloud uses the speech engine installed on your
     device (for example, Google's speech services). That engine's privacy policy applies.</li>
@@ -118,12 +119,15 @@
 
   <h2>4. What we do not do</h2>
   <ul>
-    <li>No advertising, and no analytics or tracking tools</li>
+    <li>No advertising, and no analytics or tracking tools used by the developer (the ML Kit
+    diagnostics described above go to Google, not to the developer)</li>
     <li>No crash reporting sent to the developer</li>
     <li>No sale or sharing of personal data with third parties</li>
   </ul>
 
-  <h2>5. Deleting your data</h2>
+  <h2 id="delete">5. Deleting your data</h2>
+  <p>PaperPage has no developer server and no in-app accounts, so there is nothing to request
+  from the developer. You can delete your PaperPage data yourself:</p>
   <ul>
     <li>To delete a paper and its highlights, notes, and bookmarks, remove it in the app.
     To delete all local data, uninstall the app. Your original PDF files are not deleted.</li>
@@ -133,6 +137,11 @@
     it at <a href="https://myaccount.google.com/permissions">Google Account → Third-party
     connections</a>.</li>
   </ul>
+  <p><strong>Retention:</strong> The developer does not keep any copy of your data. Data on
+  your device is kept until you delete it or uninstall the app. The Google Drive backup is
+  kept until you delete it. Diagnostic information sent to Google by ML Kit is retained by
+  Google under Google's own policies. If you need help, email
+  <a href="mailto:soyeong.lis020@gmail.com">soyeong.lis020@gmail.com</a>.</p>
 
   <h2>6. Children</h2>
   <p>PaperPage is not directed at children under 13 and does not knowingly collect personal
@@ -191,9 +200,9 @@
   <ul>
     <li><strong>Google Fonts:</strong> 일부 읽기 글꼴을 선택하면 Google 서버에서 글꼴 파일을
     내려받습니다. 일반적인 웹 요청과 마찬가지로 Google은 이용자의 IP 주소를 알 수 있습니다.</li>
-    <li><strong>Google ML Kit:</strong> 문자 인식은 기기 안에서 실행됩니다. ML Kit를 쓰는 다른 앱과
-    마찬가지로 기기 모델, API 성능 같은 제한된 진단·사용 정보가 Google에 전송될 수 있지만, 처리 중인
-    텍스트나 이미지는 전송되지 않습니다.
+    <li><strong>Google ML Kit:</strong> 문자 인식은 기기 안에서 실행됩니다. 다만 ML Kit는
+    기기 모델과 OS 버전, 앱 버전, 설치별 식별자, 성능 지표, 오류 코드 같은 진단·사용 정보가
+    HTTPS로 Google에 전송되지만, 처리 중인 텍스트나 이미지는 전송되지 않습니다.
     <a href="https://developers.google.com/ml-kit/terms">ML Kit 약관</a>을 참고하세요.</li>
     <li><strong>음성 읽기(TTS):</strong> 기기에 설치된 음성 엔진(예: Google 음성 서비스)을 사용하며,
     해당 엔진의 개인정보처리방침이 적용됩니다.</li>
@@ -203,12 +212,15 @@
 
   <h2>4. 하지 않는 것</h2>
   <ul>
-    <li>광고, 분석·추적 도구를 사용하지 않습니다.</li>
+    <li>개발자는 광고, 분석·추적 도구를 사용하지 않습니다. (위에서 설명한 ML Kit 진단 정보는
+    개발자가 아닌 Google로 전송됩니다.)</li>
     <li>오류 보고를 개발자에게 전송하지 않습니다.</li>
     <li>개인정보를 제3자에게 판매하거나 공유하지 않습니다.</li>
   </ul>
 
-  <h2>5. 정보 삭제</h2>
+  <h2 id="delete-ko">5. 정보 삭제</h2>
+  <p>PaperPage에는 개발자 서버와 앱 자체 계정이 없어 개발자에게 따로 요청할 필요가 없습니다.
+  이용자가 직접 PaperPage 데이터를 삭제할 수 있습니다.</p>
   <ul>
     <li>논문을 앱에서 삭제하면 그 논문의 하이라이트, 메모, 북마크도 함께 삭제됩니다. 앱을 삭제하면 기기에
     저장된 모든 정보가 삭제됩니다. 원본 PDF 파일은 삭제되지 않습니다.</li>
@@ -217,6 +229,10 @@
     <a href="https://myaccount.google.com/permissions">Google 계정 → 서드 파티 연결</a>에서
     PaperPage를 삭제하세요.</li>
   </ul>
+  <p><strong>보관 기간:</strong> 개발자는 이용자 데이터의 사본을 보관하지 않습니다. 기기에 저장된 정보는
+  이용자가 삭제하거나 앱을 삭제할 때까지, Google Drive 백업은 이용자가 삭제할 때까지 보관됩니다.
+  ML Kit가 Google에 보낸 진단 정보는 Google의 정책에 따라 보관됩니다. 도움이 필요하면
+  <a href="mailto:soyeong.lis020@gmail.com">soyeong.lis020@gmail.com</a>으로 문의해 주세요.</p>
 
   <h2>6. 아동</h2>
   <p>PaperPage는 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지

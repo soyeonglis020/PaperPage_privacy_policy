@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PaperPage Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2328;
+    --muted: #59636e;
+    --border: #d1d9e0;
+    --accent: #0b7a75;
+    --card: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1117;
+      --fg: #e6edf3;
+      --muted: #9198a1;
+      --border: #3d444d;
+      --accent: #4fc3bb;
+      --card: #151b23;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #9198a1;
+    --border: #3d444d;
+    --accent: #4fc3bb;
+    --card: #151b23;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 2em 0 0.5em; }
+  p, li { overflow-wrap: anywhere; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  .lang { display: flex; gap: 12px; margin-bottom: 24px; }
+  .summary {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 20px;
+  }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 56px 0; }
+</style>
+</head>
+<body>
+<main>
+
+<article id="en" lang="en">
+  <h1>PaperPage Privacy Policy</h1>
+  <p class="meta">Effective date: September 24, 2026</p>
+  <nav class="lang"><a href="#ko">한국어</a></nav>
+
+  <div class="summary">
+    <p><strong>In short:</strong> PaperPage has no servers of its own and does not collect,
+    sell, or share your personal data. Your papers, highlights, and notes stay on your
+    device. If you choose to sign in with Google, backups are stored in your own Google
+    Drive, and the developer cannot access them.</p>
+  </div>
+
+  <h2>1. Data stored on your device</h2>
+  <p>To provide its features, PaperPage stores the following data locally, in the app's
+  private storage on your device:</p>
+  <ul>
+    <li>The location (file path), title, page count, and thumbnail of each PDF you open</li>
+    <li>Highlights, notes (memos), bookmarks, folders, and reading progress</li>
+    <li>Text extracted from your PDFs (including OCR results), cached to speed up loading</li>
+    <li>App settings such as language, font, and colors</li>
+  </ul>
+  <p>PDF text extraction and text recognition (OCR) are performed on your device. The
+  contents of your PDFs are not sent to the developer or to any server operated by the
+  developer.</p>
+
+  <h2>2. Optional Google sign-in and Google Drive backup</h2>
+  <p>You can use PaperPage without signing in. If you choose to sign in with Google:</p>
+  <ul>
+    <li>The app receives your Google account name, email address, and profile photo, and
+    uses them only to show which account you are signed in with.</li>
+    <li>The app requests the <code>drive.file</code> permission, which gives it access only
+    to files that PaperPage itself creates in your Drive. It cannot see your other Drive
+    files.</li>
+    <li>When you tap sync, the app creates or updates a file named
+    <code>paperpage_backup.json</code> in your Google Drive. The file contains paper
+    titles, file paths, reading progress, highlighted text, notes, and bookmarks. It does
+    not contain the PDF files themselves.</li>
+    <li>This data goes directly between your device and Google. The developer never
+    receives it. Google handles it under the
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+  </ul>
+
+  <h2>3. Third-party services</h2>
+  <ul>
+    <li><strong>Google Fonts:</strong> When you choose certain reading fonts, the app
+    downloads the font files from Google's servers. As with any web request, Google can see
+    your IP address.</li>
+    <li><strong>Google ML Kit:</strong> Text recognition runs on your device. Like other
+    Google ML Kit apps, it may send Google limited diagnostic and usage information (such as
+    device model and API performance), but not the text or images being processed. See
+    <a href="https://developers.google.com/ml-kit/terms">ML Kit terms</a>.</li>
+    <li><strong>Text-to-speech:</strong> Read-aloud uses the speech engine installed on your
+    device (for example, Google's speech services). That engine's privacy policy applies.</li>
+    <li><strong>Web search and sharing:</strong> These run only when you tap them. Web
+    search opens the selected text as a Google search in your browser. Sharing sends the
+    selected text to the app you pick.</li>
+  </ul>
+
+  <h2>4. What we do not do</h2>
+  <ul>
+    <li>No advertising, and no analytics or tracking tools</li>
+    <li>No crash reporting sent to the developer</li>
+    <li>No sale or sharing of personal data with third parties</li>
+  </ul>
+
+  <h2>5. Deleting your data</h2>
+  <ul>
+    <li>To delete a paper and its highlights, notes, and bookmarks, remove it in the app.
+    To delete all local data, uninstall the app. Your original PDF files are not deleted.</li>
+    <li>To delete the backup, delete <code>paperpage_backup.json</code> from your Google
+    Drive.</li>
+    <li>To remove PaperPage's access to your Google account, sign out in the app, or remove
+    it at <a href="https://myaccount.google.com/permissions">Google Account → Third-party
+    connections</a>.</li>
+  </ul>
+
+  <h2>6. Children</h2>
+  <p>PaperPage is not directed at children under 13 and does not knowingly collect personal
+  information from them.</p>
+
+  <h2>7. Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new
+  effective date.</p>
+
+  <h2>8. Contact</h2>
+  <p>If you have questions about this policy, email
+  <a href="mailto:soyeong.lis020@gmail.com">soyeong.lis020@gmail.com</a>.</p>
+</article>
+
+<hr>
+
+<article id="ko" lang="ko">
+  <h1>PaperPage 개인정보처리방침</h1>
+  <p class="meta">시행일: 2026년 9월 24일</p>
+  <nav class="lang"><a href="#en">English</a></nav>
+
+  <div class="summary">
+    <p><strong>요약:</strong> PaperPage는 자체 서버가 없으며, 이용자의 개인정보를 수집·판매·공유하지
+    않습니다. 논문, 하이라이트, 메모는 기기 안에만 저장됩니다. Google 로그인을 선택하면 백업은 이용자
+    본인의 Google Drive에 저장되며, 개발자는 이 백업에 접근할 수 없습니다.</p>
+  </div>
+
+  <h2>1. 기기에 저장되는 정보</h2>
+  <p>PaperPage는 기능 제공을 위해 다음 정보를 기기 안의 앱 전용 저장공간에 저장합니다.</p>
+  <ul>
+    <li>연 PDF의 위치(파일 경로), 제목, 페이지 수, 썸네일</li>
+    <li>하이라이트, 메모, 북마크, 폴더, 읽기 진행률</li>
+    <li>불러오기 속도를 높이기 위해 캐시한 PDF 추출 텍스트(OCR 결과 포함)</li>
+    <li>언어, 글꼴, 색상 등 앱 설정</li>
+  </ul>
+  <p>PDF 텍스트 추출과 문자 인식(OCR)은 기기 안에서 처리됩니다. PDF 내용은 개발자나 개발자가
+  운영하는 서버로 전송되지 않습니다.</p>
+
+  <h2>2. 선택 기능: Google 로그인과 Google Drive 백업</h2>
+  <p>로그인하지 않아도 PaperPage를 사용할 수 있습니다. Google 로그인을 선택하면 다음과 같이
+  처리됩니다.</p>
+  <ul>
+    <li>앱은 Google 계정의 이름, 이메일 주소, 프로필 사진을 받아 어떤 계정으로 로그인했는지 표시하는
+    데에만 사용합니다.</li>
+    <li>앱은 <code>drive.file</code> 권한을 요청합니다. 이 권한으로는 PaperPage가 직접 만든 파일에만
+    접근할 수 있으며, Drive의 다른 파일은 볼 수 없습니다.</li>
+    <li>동기화를 누르면 Google Drive에 <code>paperpage_backup.json</code> 파일을 만들거나
+    갱신합니다. 이 파일에는 논문 제목, 파일 경로, 읽기 진행률, 하이라이트한 텍스트, 메모, 북마크가
+    담기며, PDF 파일 자체는 포함되지 않습니다.</li>
+    <li>이 정보는 기기와 Google 사이에서 직접 오가며 개발자에게는 전달되지 않습니다. Google은
+    <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a>에 따라 이
+    정보를 처리합니다.</li>
+  </ul>
+
+  <h2>3. 제3자 서비스</h2>
+  <ul>
+    <li><strong>Google Fonts:</strong> 일부 읽기 글꼴을 선택하면 Google 서버에서 글꼴 파일을
+    내려받습니다. 일반적인 웹 요청과 마찬가지로 Google은 이용자의 IP 주소를 알 수 있습니다.</li>
+    <li><strong>Google ML Kit:</strong> 문자 인식은 기기 안에서 실행됩니다. ML Kit를 쓰는 다른 앱과
+    마찬가지로 기기 모델, API 성능 같은 제한된 진단·사용 정보가 Google에 전송될 수 있지만, 처리 중인
+    텍스트나 이미지는 전송되지 않습니다.
+    <a href="https://developers.google.com/ml-kit/terms">ML Kit 약관</a>을 참고하세요.</li>
+    <li><strong>음성 읽기(TTS):</strong> 기기에 설치된 음성 엔진(예: Google 음성 서비스)을 사용하며,
+    해당 엔진의 개인정보처리방침이 적용됩니다.</li>
+    <li><strong>웹 검색과 공유:</strong> 이용자가 누를 때만 동작합니다. 웹 검색은 선택한 텍스트를
+    브라우저에서 Google 검색으로 열고, 공유는 선택한 텍스트를 이용자가 고른 앱으로 보냅니다.</li>
+  </ul>
+
+  <h2>4. 하지 않는 것</h2>
+  <ul>
+    <li>광고, 분석·추적 도구를 사용하지 않습니다.</li>
+    <li>오류 보고를 개발자에게 전송하지 않습니다.</li>
+    <li>개인정보를 제3자에게 판매하거나 공유하지 않습니다.</li>
+  </ul>
+
+  <h2>5. 정보 삭제</h2>
+  <ul>
+    <li>논문을 앱에서 삭제하면 그 논문의 하이라이트, 메모, 북마크도 함께 삭제됩니다. 앱을 삭제하면 기기에
+    저장된 모든 정보가 삭제됩니다. 원본 PDF 파일은 삭제되지 않습니다.</li>
+    <li>백업을 지우려면 Google Drive에서 <code>paperpage_backup.json</code>을 삭제하세요.</li>
+    <li>Google 계정 접근 권한을 해제하려면 앱에서 로그아웃하거나
+    <a href="https://myaccount.google.com/permissions">Google 계정 → 서드 파티 연결</a>에서
+    PaperPage를 삭제하세요.</li>
+  </ul>
+
+  <h2>6. 아동</h2>
+  <p>PaperPage는 만 13세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지
+  않습니다.</p>
+
+  <h2>7. 방침 변경</h2>
+  <p>이 방침이 바뀌면 이 페이지에 새 시행일과 함께 게시합니다.</p>
+
+  <h2>8. 문의</h2>
+  <p>이 방침에 관해 궁금한 점은 <a href="mailto:soyeong.lis020@gmail.com">soyeong.lis020@gmail.com</a>로 문의해
+  주세요.</p>
+</article>
+
+</main>
+</body>
+</html>

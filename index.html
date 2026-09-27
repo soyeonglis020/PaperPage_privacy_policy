@@ -60,7 +60,7 @@
 
 <article id="en" lang="en">
   <h1>PaperPage Privacy Policy</h1>
-  <p class="meta">Effective date: September 24, 2026</p>
+  <p class="meta">Effective date: September 27, 2026</p>
   <nav class="lang"><a href="#ko">한국어</a></nav>
 
   <div class="summary">
@@ -91,10 +91,12 @@
     <li>The app requests the <code>drive.file</code> permission, which gives it access only
     to files that PaperPage itself creates in your Drive. It cannot see your other Drive
     files.</li>
-    <li>When you tap sync, the app creates or updates a file named
-    <code>paperpage_backup.json</code> in your Google Drive. The file contains paper
-    titles, file paths, reading progress, highlighted text, notes, and bookmarks. It does
-    not contain the PDF files themselves.</li>
+    <li>While you are signed in, the app automatically syncs your changes to a file named
+    <code>paperpage_backup.json</code> in your Google Drive, creating it if needed. You can
+    also sync manually with the sync button. The file contains paper titles, file paths,
+    reading progress, highlighted text, notes, bookmarks, and deletion records (an
+    identifier and time for each highlight or bookmark you delete, so the deletion also
+    applies on your other devices). It does not contain the PDF files themselves.</li>
     <li>This data goes directly between your device and Google. The developer never
     receives it. Google handles it under the
     <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
@@ -129,8 +131,10 @@
   <p>PaperPage has no developer server and no in-app accounts, so there is nothing to request
   from the developer. You can delete your PaperPage data yourself:</p>
   <ul>
-    <li>To delete a paper and its highlights, notes, and bookmarks, remove it in the app.
-    To delete all local data, uninstall the app. Your original PDF files are not deleted.</li>
+    <li>To delete a paper and its highlights, notes, and bookmarks from your device, remove
+    it in the app. To delete all local data, uninstall the app. Your original PDF files are
+    not deleted. If you use Google Drive sync, a removed paper's highlights, notes, and
+    bookmarks stay in the Drive backup so they come back if you add the same PDF again.</li>
     <li>To delete the backup, delete <code>paperpage_backup.json</code> from your Google
     Drive.</li>
     <li>To remove PaperPage's access to your Google account, sign out in the app, or remove
@@ -160,7 +164,7 @@
 
 <article id="ko" lang="ko">
   <h1>PaperPage 개인정보처리방침</h1>
-  <p class="meta">시행일: 2026년 9월 24일</p>
+  <p class="meta">시행일: 2026년 9월 27일</p>
   <nav class="lang"><a href="#en">English</a></nav>
 
   <div class="summary">
@@ -188,9 +192,11 @@
     데에만 사용합니다.</li>
     <li>앱은 <code>drive.file</code> 권한을 요청합니다. 이 권한으로는 PaperPage가 직접 만든 파일에만
     접근할 수 있으며, Drive의 다른 파일은 볼 수 없습니다.</li>
-    <li>동기화를 누르면 Google Drive에 <code>paperpage_backup.json</code> 파일을 만들거나
-    갱신합니다. 이 파일에는 논문 제목, 파일 경로, 읽기 진행률, 하이라이트한 텍스트, 메모, 북마크가
-    담기며, PDF 파일 자체는 포함되지 않습니다.</li>
+    <li>로그인한 동안 앱은 변경 사항을 Google Drive의 <code>paperpage_backup.json</code> 파일에
+    자동으로 동기화하며, 파일이 없으면 새로 만듭니다. 동기화 버튼으로 직접 실행할 수도 있습니다. 이
+    파일에는 논문 제목, 파일 경로, 읽기 진행률, 하이라이트한 텍스트, 메모, 북마크, 그리고 삭제
+    기록(삭제한 하이라이트·북마크의 식별자와 삭제 시각으로, 다른 기기에서도 삭제가 반영되도록
+    하는 데 쓰입니다)이 담기며, PDF 파일 자체는 포함되지 않습니다.</li>
     <li>이 정보는 기기와 Google 사이에서 직접 오가며 개발자에게는 전달되지 않습니다. Google은
     <a href="https://policies.google.com/privacy?hl=ko">Google 개인정보처리방침</a>에 따라 이
     정보를 처리합니다.</li>
@@ -222,8 +228,10 @@
   <p>PaperPage에는 개발자 서버와 앱 자체 계정이 없어 개발자에게 따로 요청할 필요가 없습니다.
   이용자가 직접 PaperPage 데이터를 삭제할 수 있습니다.</p>
   <ul>
-    <li>논문을 앱에서 삭제하면 그 논문의 하이라이트, 메모, 북마크도 함께 삭제됩니다. 앱을 삭제하면 기기에
-    저장된 모든 정보가 삭제됩니다. 원본 PDF 파일은 삭제되지 않습니다.</li>
+    <li>논문을 앱에서 삭제하면 기기에서 그 논문의 하이라이트, 메모, 북마크도 함께 삭제됩니다. 앱을
+    삭제하면 기기에 저장된 모든 정보가 삭제됩니다. 원본 PDF 파일은 삭제되지 않습니다. Google Drive
+    동기화를 사용 중이면 삭제한 논문의 하이라이트, 메모, 북마크는 Drive 백업에 남아 있다가, 같은
+    PDF를 다시 가져오면 복원됩니다.</li>
     <li>백업을 지우려면 Google Drive에서 <code>paperpage_backup.json</code>을 삭제하세요.</li>
     <li>Google 계정 접근 권한을 해제하려면 앱에서 로그아웃하거나
     <a href="https://myaccount.google.com/permissions">Google 계정 → 서드 파티 연결</a>에서
